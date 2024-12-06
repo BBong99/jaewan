@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Pretendard;
+  /* width: 100%;
+  height: 100%; */
+  margin: 0;
+}
+
+
+
+.top {
+  background-color: #FFFFFF;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  font-size: 16px;
+
+}
+
+.tops {
+  max-width: 1520px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+
+.top .tops {
+  width: 100%;
+  margin: auto;
+}
+
+
+.Pandalogo {
+  cursor: pointer;
+}
+
+.login {
+  padding: 0px;
+  font-family: Pretendard;
+  border:none;
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+  color: #F3F4F6;
+  background-color:#3692FF;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+.banner {
+  height: 540px;
+  display: flex;
+  background-color: #CFE5FF;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img { 
+  overflow: hidden;
+}
+
+.banner-container {
+  max-height: 340px;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  max-width: 1920px;
+}
+
+.banner .banner-container {
+  align-items: center;
+  width: 100%;
+}
+
+.watch-comment1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 60px;
+}
+
+.watch {
+  font-family: Pretendard;
+  border:none;
+  width: 357px;
+  height: 56px;
+  border-radius: 40px;
+  color: #F3F4F6;
+  background-color:#3692FF;
+  font-size: 20px;
+  cursor: pointer;
+
+  gap: 10px;
+}
+
+.comment1 {
+  line-height: 56px;
+  font-size: 40px;
+  color: #374151;
+  margin: 0px;
+}
+
+
+
+.popular {
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popularBackground{
+  width: 988px;
+  height: 444px;
+  gap: 64px;
+  background-color: #FCFCFC;
+  display: flex;
+}
+
+.comment2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  top: 103px;
+}
+
+p {
+  color: #3692FF;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px;
+}
+
+.commentOne {
+  color: #374151;
+  font-size: 40px;
+  line-height: 56px;
+  margin: 0px;
+}
+
+.commentTwo {
+  color: #374151;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0px;
+  position: relative;
+  top: 24px;
+}
+
+.buywanted {
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buywantedBackground {
+  display: flex;
+  width: 988px;
+  height: 444px;
+  gap: 64px;
+  background-color: #FCFCFC;
+  justify-content: flex-end;
+}
+
+.comment3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  top: 103px;
+  align-items: end;
+}
+
+.comment3One {
+  color: #374151;
+  font-size: 40px;
+  line-height: 56px;
+  margin: 0px;
+  text-align: right;
+}
+
+.comment3Two {
+  color: #374151;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0px;
+  position: relative;
+  top: 24px;
+  text-align: right;
+}
+
+.sellwanted {
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-banner-container {
+  display: flex;
+  gap: 69px;
+  align-items: center;
+}
+
+
+.CommentBottom {
+  line-height: 56px;
+  font-size: 40px;
+  color: #374151;
+  margin: 0px;
+  margin-bottom: 60px;
+}
+
+
+.footerstyle {
+  background-color: #111827;
+  height: 160px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+  /* max-width: 1920px; */
+}
+
+.footerstyle .footer-navigation {
+  max-width: 1920px;
+  padding: 0 200px;
+  margin: auto;
+}
+
+.footer-navigation {
+  color: #E5E7EB;
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+  position: relative;
+  top: 32px;
+}
+
+.sourceYear {
+  color: #9CA3AF;
+  /* margin-left: 200px; */
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.source-center {
+  display: flex;
+  gap: 30px;
+}
+
+.source-icon {
+  display: flex;
+  /* margin-right: 200px; */
+  gap: 12px;
+}
+
+
